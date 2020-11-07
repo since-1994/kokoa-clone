@@ -1,0 +1,25 @@
+#friends-display-link{
+    display: block;
+    text-align: center;
+    background-color: #FAFAFA;
+    padding: 15px 0px;
+}
+
+#friends-display-link i{
+    color: rgba(0, 0, 0, 0.3);
+}
+
+#friends-display-link{
+    color: #1A1A1A;
+}
+.user-component__text{
+    margin-left: 18px;
+}
+.user-component__title{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.user-component__subtitle{
+    color: rgba(0, 0, 0, 0.7);
+}
