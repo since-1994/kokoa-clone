@@ -3,15 +3,15 @@
     text-align: center;
     background-color: #FAFAFA;
     padding: 15px 0px;
+    color: #1A1A1A;
+    margin-top: -15px;
+    /* 마이너스 값을 마진으로 줄 수도 있다.  */
 }
 
 #friends-display-link i{
     color: rgba(0, 0, 0, 0.3);
 }
 
-#friends-display-link{
-    color: #1A1A1A;
-}
 .user-component__text{
     margin-left: 18px;
 }
