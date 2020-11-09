@@ -54,7 +54,15 @@
 }
 
 .user-component__column:last-child{
-    color: rgba(0, 0, 0, 0.5);
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.user-component__time{
+    display: block;
+    color: rgba(0, 0, 0, 0.5);
+    /* inline 요소는 margin을 줄 수가 없기때문에  */
+    margin-bottom: 10px;
 }
