@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap");
 @import "reset.css";
 @import "variables.css";
 /*Components*/
@@ -11,9 +11,9 @@
 /*Screens*/
 @import "screens/login.css";
 @import "screens/friends.css";
+@import "screens/find.css";
 /* 앞으로 css 파일을 모으는 용도로만 styles.css 파일을 사용 */
-
-body{
-    font-family: 'Open Sans', sans-serif;
-    height: 1000vh;
+body {
+  font-family: "Open Sans", sans-serif;
+  height: 100vh;
 }
