@@ -21,5 +21,9 @@
 
 .screen-header__icons .nav__notification {
   position: absolute;
-  left: 0px;
+  right: 0px;
+}
+
+.screen-header__title--settings {
+  font-size: 22px;
 }

@@ -1,25 +1,50 @@
-#friends-display-link{
-    display: block;
-    text-align: center;
-    background-color: #FAFAFA;
-    padding: 15px 0px;
-    color: #1A1A1A;
-    margin-top: -15px;
-    /* 마이너스 값을 마진으로 줄 수도 있다.  */
+#friends-display-link {
+  display: block;
+  text-align: center;
+  background-color: #fafafa;
+  padding: 15px 0px;
+  color: #1a1a1a;
+  margin-top: -15px;
+  /* 마이너스 값을 마진으로 줄 수도 있다.  */
 }
 
-#friends-display-link i{
-    color: rgba(0, 0, 0, 0.3);
+#friends-display-link i {
+  color: rgba(0, 0, 0, 0.3);
 }
 
-.user-component__text{
-    margin-left: 18px;
+.user-component__text {
+  margin-left: 18px;
 }
-.user-component__title{
-    font-size: 18px;
-    font-weight: 600;
+.user-component__title {
+  font-size: 18px;
+  font-weight: 600;
 }
 
-.user-component__subtitle{
-    color: rgba(0, 0, 0, 0.7);
+.user-component__subtitle {
+  color: rgba(0, 0, 0, 0.7);
+}
+
+@keyframes splash {
+  0% {
+    opacity: 1;
+  }
+
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+#splash-screen {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--yellow);
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  top: 0;
+  z-index: 1;
+  font-size: 100px;
+  animation: splash 2s ease-in-out forwards;
 }
